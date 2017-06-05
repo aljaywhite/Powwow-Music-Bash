@@ -95,7 +95,7 @@ button:focus {
   margin : auto;
 }
 
-.poster {
+.poster, .info-map {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -106,19 +106,24 @@ button:focus {
 
 
 .about,
-.story {
+.story,
+.camping {
   text-align: center;
 }
 
 
 
-#story {
+#story, #info-map {
   margin-bottom: 3.75rem;
 }
 
 #map {
   height: 400px;
   width: 100%;
+}
+
+.info-map {
+  margin-bottom: 1.87rem;
 }
 
 .map-contain {
