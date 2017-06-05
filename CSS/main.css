@@ -1,0 +1,126 @@
+/******************************************
+              --COLORS--
+color: #331287 | rgba(51, 18, 135, 1);
+color: #7927ad | rgba(121, 39, 173, 1);
+******************************************/
+
+
+
+
+body {
+  height: 100%;
+  position: relative;
+  overflow-y: scroll;
+}
+
+
+#cover {
+  display         : flex;
+  width           : auto;
+  height          : 100vh;
+  margin          : auto;
+  margin-bottom   : 0;
+  background      : url("../Images/Assets/Pow-banner.png") no-repeat center center fixed,
+                    url("../Images/Assets/Star-Field.png") no-repeat center center fixed,
+                    linear-gradient( to bottom, rgba(135, 40, 18, 1), rgba(173, 125, 39, 1));
+  background-size : cover;
+  align-items     : center;
+                    sans-serif;
+  flex-direction  : column;
+  justify-content : center;
+}
+
+body {
+  color         : #b7b38d;
+  background    : url("../Images/Assets/Star-Field.png") no-repeat center fixed,
+                  linear-gradient( to bottom, rgba(51, 18, 135, 1), rgba(121, 39, 173, 1)) no-repeat center fixed;
+  font-family   : 'Bauhaus-93', sans-serif;
+  font-weight   :  300;
+}
+
+p {
+  font-family: 'futura', sans-serif;
+  font-size: 1.5rem;
+}
+
+img {
+  max-width : 100%;
+  height    : auto;
+}
+
+nav {
+  margin-bottom: 3.75rem;
+}
+
+
+.navbar, .navbar a {
+  font-family: 'Friday13SH', sans-serif;
+  background-color: rgba(0, 0, 0, 1);
+  color: #b7b38d;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  background-color: rgba(0, 0, 0, .6);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar a:hover {
+  color: rgba(135, 40, 18, 1);
+}
+
+.navbar>button {
+  border-color: #b7b38d;
+  color: #b7b38d;
+  margin-top: .375rem;
+}
+
+.navbar>button:hover,
+.navbar>button:focus {
+  border-color: rgba(135, 40, 18, 1);
+  color: rgba(135, 40, 18, 1);
+}
+
+button:focus {
+  outline: none;
+}
+
+.logo {
+  width  : auto;
+  height : 36px;
+  margin : auto;
+}
+
+.poster {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3.75rem;
+}
+
+
+
+.about,
+.story {
+  text-align: center;
+}
+
+
+
+#story {
+  margin-bottom: 3.75rem;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.map-contain {
+  margin-bottom: 3.75rem;
+}
