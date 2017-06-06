@@ -32,10 +32,15 @@ body {
 
 body {
   color         : #b7b38d;
-  background    : url("../Images/Assets/Star-Field.png") repeat center top fixed,
+  background    : url("../Images/Assets/Star-Field.png") no-repeat center fixed,
                   linear-gradient( to bottom, rgba(51, 18, 135, 1), rgba(121, 39, 173, 1)) no-repeat center fixed;
+  background-size: cover;
   font-family   : 'Bauhaus-93', sans-serif;
   font-weight   :  300;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 p {
@@ -69,7 +74,8 @@ nav {
   padding-right: 50px;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.lineup a:hover {
   color: rgba(135, 40, 18, 1);
 }
 
@@ -95,7 +101,7 @@ button:focus {
   margin : auto;
 }
 
-.poster, .info-map {
+.info-map {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -103,7 +109,40 @@ button:focus {
   margin-bottom: 3.75rem;
 }
 
+.lineup h3 {
+  text-align: center;
+}
 
+.lineup h2 {
+  font-size: 3rem;
+  font-family: 'Friday13SH', sans-serif;
+}
+
+.lineup p {
+  text-align: center;
+}
+
+.late {
+  text-decoration: underline;
+}
+
+.lineup a {
+  font-size: 3rem;
+  padding-right: 2rem;
+  font-family: 'Friday13SH', sans-serif;
+  color: #b7b38d;
+}
+
+.lineup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#lineup {
+  background: url("../Images/Assets/Powwow Flier City Woods.png") no-repeat center 80% fixed, url("../Images/Assets/Star-Field.png") no-repeat center center fixed,
+  linear-gradient( to bottom, rgba(135, 40, 18, 1), rgba(173, 125, 39, 1));
+}
 
 .about,
 .story,
@@ -111,7 +150,9 @@ button:focus {
   text-align: center;
 }
 
-
+.story {
+  padding-top: 50px;
+}
 
 #story, #info-map {
   margin-bottom: 3.75rem;
@@ -130,7 +171,16 @@ button:focus {
   margin-bottom: 3.75rem;
 }
 
-
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #000;
+    color: #b7b38d;
+    text-align: center;
+}
 
 @media screen and (max-width: 767px) {
   #cover {
