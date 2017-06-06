@@ -205,6 +205,11 @@ button:focus {
     display: none;
   }
 
+  #lineup {
+    background: url("../Images/Assets/Powwow Flier City Woods.png") no-repeat center fixed, url("../Images/Assets/Star-Field.png") repeat center center fixed,
+    linear-gradient( to bottom, rgba(135, 40, 18, 1), rgba(173, 125, 39, 1));
+  }
+
   .lineup1 {
     font-size: 3rem;
   }
