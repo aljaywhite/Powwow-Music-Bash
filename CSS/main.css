@@ -122,12 +122,27 @@ button:focus {
   text-align: center;
 }
 
+.lineup1 {
+  font-size: 6rem;
+}
+
+.lineup2 {
+  font-size: 4rem;
+}
+
+.lineup3 {
+  font-size: 3rem;
+}
+
+.lineup4 {
+  font-size: 2rem;
+}
+
 .late {
   text-decoration: underline;
 }
 
 .lineup a {
-  font-size: 3rem;
   padding-right: 2rem;
   font-family: 'Friday13SH', sans-serif;
   color: #b7b38d;
