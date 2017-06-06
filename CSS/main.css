@@ -142,7 +142,8 @@ button:focus {
 }
 
 .lineup a {
-  padding-right: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   font-family: 'Friday13SH', sans-serif;
   color: #b7b38d;
 }
@@ -235,7 +236,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("../Images/Assets/Powwow Flier City Woods.png") no-repeat center 80% fixed, url("../Images/Assets/Star-Field.png") repeat center fixed,
+  background: url("../Images/Assets/Powwow Flier City Woods.png") no-repeat center center, url("../Images/Assets/Star-Field.png") repeat center,
   linear-gradient( to bottom, rgba(135, 40, 18, 1), rgba(173, 125, 39, 1));
   -webkit-background-size: cover;
   -moz-background-size: cover;
