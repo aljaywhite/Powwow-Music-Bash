@@ -103,8 +103,6 @@ button:focus {
 
 #message {
   display: none;
-  background: url("../Images/Assets/Star-Field.png") no-repeat center center fixed;
-  background-size : cover;
   margin-bottom: 3.75rem;
   width: auto;
   height: 100vh;
