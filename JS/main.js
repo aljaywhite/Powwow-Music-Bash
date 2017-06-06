@@ -1,5 +1,12 @@
+//********************************
+//       Navigation Scroll
+// ********************************
+
 $('body').scrollspy({ target: '.navbar-collapse' });
 
+//********************************
+//       Google Map
+// ********************************
 function initMap() {
         var pepperUpperClub = {lat: 38.411340, lng: -85.793889};
         var map = new google.maps.Map(document.getElementById('map'), {
