@@ -59,6 +59,12 @@ nav {
   margin-bottom: 3.75rem;
 }
 
+hr {
+  height: 2px;
+  width: 60%;
+  background-color: #b7b38d;
+}
+
 /*****************************************
         Navigation Styles
 *****************************************/
@@ -135,17 +141,24 @@ button:focus {
         Content Styles-Lineup
 *****************************************/
 
-.lineup h3 {
-  text-align: center;
+.lineup-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.lineup h2 {
+.lineup-head:first-child {
+  padding-top: 4rem;
+}
+
+.lineup-head h2 {
   font-size: 3rem;
   font-family: 'Friday13SH', sans-serif;
 }
 
 .lineup p {
   text-align: center;
+  padding: 1.5rem 1rem;
 }
 
 .lineup1 {
@@ -162,6 +175,7 @@ button:focus {
 
 .lineup4 {
   font-size: 2rem;
+  padding-bottom: 4rem;
 }
 
 .late {
@@ -217,7 +231,7 @@ button:focus {
 }
 
 #info-map {
-  margin-bottom: 3.75rem;
+  padding-bottom: 3.75rem;
 }
 
 #map {
@@ -267,6 +281,7 @@ button:focus {
   #lineup {
     background: url("../Images/Assets/Star-Field.png") repeat center center fixed,
     linear-gradient( to bottom, rgba(135, 40, 18, 1), rgba(173, 125, 39, 1));
+    text-align: center;
   }
 
   #message {
