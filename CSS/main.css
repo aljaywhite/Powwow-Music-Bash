@@ -240,12 +240,11 @@ button:focus {
   width: 100%;
 }
 
-.info-map {
-  margin-bottom: 1.87rem;
-}
-
 .map-contain {
   margin-bottom: 3.75rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: #b7b38f;
 }
 
 /*****************************************
