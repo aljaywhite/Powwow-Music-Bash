@@ -232,6 +232,7 @@ button:focus {
 
 #info-map {
   padding-bottom: 3.75rem;
+  margin: auto;
 }
 
 #map {
