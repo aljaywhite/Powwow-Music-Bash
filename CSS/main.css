@@ -143,19 +143,32 @@ button:focus {
 
 #about {
 color: rgba(121, 39, 173, .6);
-  padding: 30rem 1rem 1.5rem 1rem;
+  padding: 32rem 1rem 0 1rem;
       opacity: 0;
-      -webkit-transition: opacity 2s ease-in;
-         -moz-transition: opacity 2s ease-in;
-          -ms-transition: opacity 2s ease-in;
-           -o-transition: opacity 2s ease-in;
-              transition: opacity 2s ease-in;
+      -webkit-transition: opacity 3s ease-in;
+         -moz-transition: opacity 3s ease-in;
+          -ms-transition: opacity 3s ease-in;
+           -o-transition: opacity 3s ease-in;
+              transition: opacity 3s ease-in;
   }
 
-  /*#about.load {
+  #about.load {
       opacity: 1;
-  }*/
+  }
 
+#fa-chev {
+  color: rgba(121, 39, 173, .6);
+        opacity: 0;
+        -webkit-transition: opacity 3s ease-in;
+           -moz-transition: opacity 3s ease-in;
+            -ms-transition: opacity 3s ease-in;
+             -o-transition: opacity 3s ease-in;
+                transition: opacity 3s ease-in;
+}
+
+#fa-chev.load {
+  opacity: 1;
+}
 /*****************************************
         Content Styles-Lineup
 *****************************************/

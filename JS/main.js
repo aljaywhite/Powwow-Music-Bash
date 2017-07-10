@@ -20,4 +20,5 @@ function initMap() {
         });
       }
 
-// document.getElementById("about").className += " load";
+document.getElementById("about").className += " load";
+document.getElementById("fa-chev").className += " load";
