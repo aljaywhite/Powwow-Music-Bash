@@ -19,3 +19,5 @@ function initMap() {
           map: map
         });
       }
+
+// document.getElementById("about").className += " load";

@@ -7,3 +7,8 @@
   font-family: 'Friday13SH';
   src: url(Fonts/Friday13SH.ttf);
 }
+
+@font-face {
+  font-family: 'Friday13 Bonus NFI';
+  src: url(Fonts/Friday13 Bonus NFI.ttf);
+}
