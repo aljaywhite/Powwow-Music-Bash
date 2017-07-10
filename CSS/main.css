@@ -138,12 +138,13 @@ button:focus {
 }
 
 
-
-
-
 #about {
-color: rgba(121, 39, 173, .6);
   padding: 32rem 1rem 0 1rem;
+}
+
+
+#about, #fa-chev {
+color: rgba(121, 39, 173, .6);
       opacity: 0;
       -webkit-transition: opacity 3s ease-in;
          -moz-transition: opacity 3s ease-in;
@@ -152,22 +153,8 @@ color: rgba(121, 39, 173, .6);
               transition: opacity 3s ease-in;
   }
 
-  #about.load {
-      opacity: 1;
-  }
-
-#fa-chev {
-  color: rgba(121, 39, 173, .6);
-        opacity: 0;
-        -webkit-transition: opacity 3s ease-in;
-           -moz-transition: opacity 3s ease-in;
-            -ms-transition: opacity 3s ease-in;
-             -o-transition: opacity 3s ease-in;
-                transition: opacity 3s ease-in;
-}
-
-#fa-chev.load {
-  opacity: 1;
+#about.load, #fa-chev.load {
+    opacity: 1;
 }
 /*****************************************
         Content Styles-Lineup
