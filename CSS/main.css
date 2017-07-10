@@ -144,7 +144,7 @@ button:focus {
 
 
 #about, #fa-chev {
-color: rgba(121, 39, 173, .6);
+color: rgb(121, 39, 173);
       opacity: 0;
       -webkit-transition: opacity 3s ease-in;
          -moz-transition: opacity 3s ease-in;
@@ -154,7 +154,7 @@ color: rgba(121, 39, 173, .6);
   }
 
 #about.load, #fa-chev.load {
-    opacity: 1;
+    opacity: .6;
 }
 /*****************************************
         Content Styles-Lineup
