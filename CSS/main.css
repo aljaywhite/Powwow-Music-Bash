@@ -228,11 +228,13 @@ color: rgb(121, 39, 173);
 *****************************************/
 
 .about,
+.schedule,
 .story,
 .camping {
   text-align: center;
 }
 
+.schedule,
 .story {
   padding-top: 50px;
 }
