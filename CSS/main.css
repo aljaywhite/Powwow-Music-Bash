@@ -24,7 +24,7 @@ body {
   margin-bottom   : 0;
   background      : url("../Images/Assets/Pow-banner.png") no-repeat center center fixed,
                     url("../Images/Assets/Star-Field.png") no-repeat center center fixed,
-                    linear-gradient( to bottom, rgba(135, 40, 18, 1), rgba(173, 125, 39, 1));
+                    linear-gradient( to bottom, rgba(230, 199, 127, 1), rgba(248, 180, 66, 1));
   background-size : cover;
   align-items     : center;
   flex-direction  : column;
@@ -33,9 +33,8 @@ body {
 
 
 body {
-  color         : #b7b38d;
-  background    : url("../Images/Assets/Star-Field.png") no-repeat center fixed, linear-gradient( to bottom, rgba(135, 40, 18, .5), rgba(173, 125, 39, .5)) no-repeat center fixed,
-  linear-gradient( to bottom, rgba(51, 18, 135, 1), rgba(121, 39, 173, 1)) no-repeat center fixed;
+  color         : #242b3d;
+  background    : linear-gradient( to bottom, rgba(230, 199, 127, 1), rgba(248, 180, 66, 1)) no-repeat center fixed;
   font-family   : 'Bauhaus-93', sans-serif;
   font-weight   :  300;
   background-size: cover;
@@ -144,7 +143,7 @@ button:focus {
 
 
 #about, #fa-chev {
-color: rgb(121, 39, 173);
+color: rgb(36, 43, 61);
       opacity: 0;
       -webkit-transition: opacity 3s ease-in;
          -moz-transition: opacity 3s ease-in;
@@ -154,7 +153,7 @@ color: rgb(121, 39, 173);
   }
 
 #about.load, #fa-chev.load {
-    opacity: .6;
+    opacity: 1;
 }
 /*****************************************
         Content Styles-Lineup
@@ -205,7 +204,7 @@ color: rgb(121, 39, 173);
   padding-right: 1rem;
   padding-left: 1rem;
   font-family: 'Friday13SH', sans-serif;
-  color: #b7b38d;
+  color: #242b3d;
 }
 
 .lineup a:focus {
@@ -219,8 +218,8 @@ color: rgb(121, 39, 173);
 }
 
 #lineup {
-  background: url("../Images/Assets/Powwow Flier City Woods.png") no-repeat center 80% fixed, url("../Images/Assets/Star-Field.png") no-repeat center center fixed,
-  linear-gradient( to bottom, rgba(135, 40, 18, 1), rgba(173, 125, 39, 1));
+  background: url("../Images/Assets/Powwow Base Black 2018.png") no-repeat center 80% fixed, url("../Images/Assets/Star-Field.png") no-repeat center center fixed,
+  linear-gradient( to bottom, rgba(230, 199, 127, 1), rgba(248, 180, 66, 1));
 }
 
 /*****************************************
